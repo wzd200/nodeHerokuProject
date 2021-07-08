@@ -1,13 +1,11 @@
 {
-  "name": "nodeHerokuProject",
+  "name": "nodeherokuproject",
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
     "heroku-postbuild": "cd client && npm i && npm run build"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.30.0",
